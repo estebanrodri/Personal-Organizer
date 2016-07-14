@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Organizador Personal</string>
+    <string name="action_logout">Salir</string>
+    <string name="action_settings">Configuración</string>
+    <string name="login.message.email">Usuario</string>
+    <string name="login.message.password">Contraseña</string>
+    <string name="login.message.signin">Ingresar</string>
+    <string name="login.message.signup">Registrar</string>
+    <string name="login_error_message_signin">Error al intentar loguearse</string>
+    <string name="login_error_message_signup">Error al intentar crear usuario</string>
+    <string name="login_notice_message_useradded">Usuario Registrado con éxito</string>
+    <string name="main_title_password">Contraseñas</string>
+    <string name="main_title_task">Tareas</string>
+    <string name="password.button.txt">Guardar contraseña</string>
+    <string name="password.button2.txt">Ir al enlace</string>
+    <string name="password.txt.link">Enlace del sitio, ejemplo: www.gmail.com</string>
+    <string name="password.txt.password">Contraseña</string>
+    <string name="password.txt.site">Nombre del sitio, Ejemplo: Gmail</string>
+    <string name="user_text">Usuario</string>
+    <string name="password_text">Contraseña</string>
+    <string name="passwords.label">Lista de contraseñas</string>
+    <string name="login_welcome">Bienvenido</string>
+    <string name="password.txt.user">Usuario o Correo</string>
+    <string name="task.button.txt">Guardar Tarea</string>
+    <string name="task.select.category">Categoría</string>
+    <string name="task.select.progress">Nivel de progreso</string>
+    <string name="task.select.status">Estado</string>
+    <string name="task.txt.description">Descripción</string>
+    <string name="task.txt.end_date">Fecha Final</string>
+    <string name="task.txt.start_date">Fecha Inicial</string>
+    <string name="task.txt.end_time">Fecha Final</string>
+    <string name="task.txt.start_time">Hora de Inicio</string>
+    <string name="tasks.label">Lista de tareas</string>
+    <string name="task.txt.task_name">Nombre Tarea</string>
+    <string name="title_activity_organizer_main">Organizador Personal</string>
+</resources>

@@ -1,0 +1,45 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+
+buildscript {
+    repositories {
+        jcenter()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:1.5.0'
+        classpath 'com.neenbedankt.gradle.plugins:android-apt:1.8'
+
+        // NOTE: Do not place your application dependencies here; they belong
+        // in the individual module build.gradle files
+    }
+}
+
+allprojects {
+    repositories {
+        jcenter()
+        maven { url "https://www.jitpack.io" }
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}
+
+ext {
+    //Definimos algunas variables o elementos a utilizar
+
+    minSdkVersion = 14
+    targetSdkVersion = 23
+    compileSdkVersion = 23
+    buildToolsVersion = "23.0.3"
+
+    supportLibraryVersion = '23.2.1'
+    dbflowVersion = '3.1.1'
+    retrofitVersion = '2.0.0-beta4'
+    butterKnifeVersion = '7.0.1'
+    eventbusVersion = '3.0.0'
+    daggerVersion = '2.0.1'
+    glideVersion = '3.6.1'
+    jsr250Version = '1.0'
+    circleImageViewVersion = '2.0.0'
+    cardViewVersion = '21.0.+'
+}
